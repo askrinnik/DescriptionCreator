@@ -56,3 +56,6 @@ USING (TABLE_NAME, COLUMN_NAME)
 WHERE 
   (C.comments is null or C.comments = '')
 order by TABLE_NAME
+
+
+Then the result can by copied to Excel. Descriptions should be filled and result saved to tabbed file
